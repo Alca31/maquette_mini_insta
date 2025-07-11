@@ -1,0 +1,51 @@
+body {
+    background-color: #be1ac0;
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    min-width: 350px;
+    max-width: 350px;
+}
+
+
+form {
+    background-color: #e379cc;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #e379cc solid 25px;
+    box-shadow: 2px 2px 10px black;
+    margin-bottom: 20px;
+    
+}
+
+input[type=file] {
+  display: none;
+}
+
+.labelfile {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    
+}
+.labelfile:hover {
+    background-color: white;
+}
+
+
+.posts {
+    overflow: scroll;
+    height: 600px;
+}
